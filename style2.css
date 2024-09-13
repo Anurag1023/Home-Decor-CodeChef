@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+
+    
+    display: flex;
+   
+}
+
+body{
+    background: rgb(32,28,98);
+background: linear-gradient(90deg, rgba(32,28,98,1) 0%, rgba(9,121,101,1) 42%, rgba(0,212,255,1) 100%);
+overflow: hidden;
+}
+
+.container .left{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 30px;
+    
+}
+
+.container .right{
+    flex: 1;
+    right: 0;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,250px);
+    overflow: hidden;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 30px 50px;
+    /* padding-top: 30px; */
+}
+
+
+
+.grid a img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.grid a img:hover{
+    box-shadow: 0px 0px 25px black;
+    scale: 1.05;
+    transition: 0.25s ease-in;
+}
+
+.left{
+    display: flex;
+    padding: 0px 50px;
+    flex-direction: column;
+}
+
+.left h1 {
+    font-size: 45px;
+    color: white;
+    font-family: Cedarville Cursive;
+    text-align: center;
+}
+
+.left p{
+    font-size: large;
+    font-family: cursive;
+    color: white;
+    /* width: 100%; */
+    text-align: center;
+}
+
