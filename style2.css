@@ -69,14 +69,14 @@ overflow: hidden;
 }
 
 .left h1 {
-    font-size: 45px;
+    font-size: 65px;
     color: white;
     font-family: Cedarville Cursive;
     text-align: center;
 }
 
 .left p{
-    font-size: large;
+    font-size: larger;
     font-family: cursive;
     color: white;
     /* width: 100%; */
